@@ -1,0 +1,29 @@
+{
+  "productName": "CoS-serial",
+  "directories": {
+    "output": "app-builds"
+  },
+  "win": {
+    "target": [
+      {
+        "target": "portable",
+        "arch": [
+          "ia32",
+          "x64"
+        ]
+      }
+    ]
+  },
+  "mac": {
+    "icon": "dist",
+    "target": [
+      "dmg"
+    ]
+  },
+  "linux": {
+    "icon": "dist",
+    "target": [
+      "AppImage"
+    ]
+  }
+}
