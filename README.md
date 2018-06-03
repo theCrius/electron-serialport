@@ -30,6 +30,9 @@ npm install
 npm start
 ```
 
+## Build distribution version
+Use the builder syntax. To build for windows: `npx electron-builder build --windows`
+
 Learn more about Electron and its API in the [documentation](http://electron.atom.io/docs/).
 
 ## Other Example Apps
