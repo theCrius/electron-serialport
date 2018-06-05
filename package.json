@@ -6,6 +6,7 @@
   "scripts": {
     "start": "electron .",
     "install": "electron-rebuild",
+    "build:windows": "npx electron-builder build --windows",
     "postinstall": "npx electron-builder install-app-deps"
   },
   "repository": {
