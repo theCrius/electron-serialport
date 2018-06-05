@@ -1,5 +1,5 @@
 {
-  "productName": "CoS-serial",
+  "productName": "Electron-SerialPort",
   "directories": {
     "output": "app-builds"
   },
